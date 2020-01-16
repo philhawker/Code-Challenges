@@ -8,3 +8,5 @@ def get_string_length(str):
   return counter
 
 print(get_string_length(sentence))
+
+# print(len(sentence))
