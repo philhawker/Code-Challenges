@@ -21,7 +21,7 @@ word = 'restart'
 
 def specialreplace(r):
   chars = [('$' if c == r[0] else c) for c in r[1:]]
-  print (s[0] + ''.join(chars))
+  print (r[0] + ''.join(chars))
 
 specialreplace = lambda r:r[0]+''.join(['$'if c==r[0]else c for c in r[1:]])
 
