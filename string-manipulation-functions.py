@@ -15,6 +15,8 @@ def slicer(str):
 slicer(string_one)
 
 
+# ````
+
 # challenge two
 word = 'restart'
 
@@ -27,6 +29,7 @@ specialreplace = lambda r:r[0]+''.join(['$'if c==r[0]else c for c in r[1:]])
 
 print(specialreplace(word))
 
+# ````
 
 # challenge three
 
@@ -36,3 +39,6 @@ new_greeting = ''.join(reversed(greeting))
 
 print(new_greeting)
 
+
+
+# ````
