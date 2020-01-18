@@ -1,6 +1,6 @@
 # challenge one 
 
-string_one = 'flame'
+string_one = 'happy'
 string_two = 'f'
 
 def slicer(str):
@@ -15,6 +15,8 @@ def slicer(str):
 slicer(string_one)
 
 
+# ````
+
 # challenge two
 word = 'restart'
 
@@ -23,10 +25,9 @@ def specialreplace(r):
   chars = [('$' if c == r[0] else c) for c in r[1:]]
   print (r[0] + ''.join(chars))
 
-specialreplace = lambda r:r[0]+''.join(['$'if c==r[0]else c for c in r[1:]])
-
 print(specialreplace(word))
 
+# ````
 
 # challenge three
 
@@ -36,3 +37,6 @@ new_greeting = ''.join(reversed(greeting))
 
 print(new_greeting)
 
+
+
+# ````
