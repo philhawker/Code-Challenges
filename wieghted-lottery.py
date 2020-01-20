@@ -1,18 +1,19 @@
 import numpy as np
 
 def weighted_lottery(weights):
-  container_list = []
+    container_list = []
+    for (name, weight) in weights.items():
+        for _ in range(weight):
+            container_list.append(name)
 
-  for (name, weight) in weights.items():
-    for _ in range(weight):
-      container_list.append(name)
-      
-  return container_list
+    return np.random.choice(container_list)
+
 
 other_weights = {
-  'winning': 1,
-  'break_even': 2,
-  'losing': 3,
-  }
+    'winning': 1,
+    'break_even': 2,
+    'losing': 3,
+}
+
 
 print(weighted_lottery(other_weights))
