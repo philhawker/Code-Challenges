@@ -5,7 +5,9 @@ sales = {
   'offline': 12,
 }
 
-print('g ' +sales['google'] * '$')
-print('f ' +sales['facebook'] * '$')
-print('t ' +sales['twitter'] * '$')
-print('o ' +sales['offline'] * '$')
+def histogram(sales_data):
+  for company, sales in sales_data.items():
+    print(company[0], sales * '$')
+
+
+histogram(sales)
