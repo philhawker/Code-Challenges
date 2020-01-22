@@ -1,16 +1,16 @@
   
 def fizz_buzz(max_num):
-  for fizzbuzz in range(1, max_num + 1):
-    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+  for organizer in range(1, max_num + 1):
+    if organizer % 3 == 0 and organizer % 5 == 0:
       print("fizzbuzz")
       continue
-    elif fizzbuzz % 3 == 0:
+    elif organizer % 3 == 0:
       print("fizz")
       continue
-    elif fizzbuzz % 5 == 0:
+    elif organizer % 5 == 0:
       print("buzz")
       continue
-    print(fizzbuzz)
+    print(organizer)
     
 
 fizz_buzz(100)
