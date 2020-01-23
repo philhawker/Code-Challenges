@@ -1,6 +1,6 @@
 
 def remove_first_and_last(list_to_clean):
-  _, *content, _ = list_to_clean    # *content is globbing. grabbing everything inbetween the first and last
+  _, *content, _ = list_to_clean    # *content is destructuring or globbing. grabbing everything inbetween the first and last
   return content                        # underscores _ "" _ are there to show that something is going to be removed. not required syntax
 
 
