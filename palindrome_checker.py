@@ -39,8 +39,8 @@ def name_list(**kwargs):
 
 
 
-(name_list(
+name_list(
   first = 'Phil',
   mid = 'Kelsey',
   last = 'Sadie',
-))
+)
