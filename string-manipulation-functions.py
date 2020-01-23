@@ -1,9 +1,9 @@
 # challenge one 
 
-string_one = 'happy'
+string_one = 'mississippi'
 string_two = 'f'
 
-def slicer(str):
+def butthole(str):
   if str[:5]:
     print(str[:2] + str[-2:])
   if str[:3]:
@@ -12,7 +12,7 @@ def slicer(str):
     str = 'Empty String'
   print(str)
 
-slicer(string_one)
+butthole(string_one)
 
 
 # ````
