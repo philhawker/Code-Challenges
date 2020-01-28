@@ -3,7 +3,7 @@
 string_one = 'mississippi'
 string_two = 'f'
 
-def butthole(str):
+def length(str):
   if str[:5]:
     print(str[:2] + str[-2:])
   if str[:3]:
@@ -12,7 +12,7 @@ def butthole(str):
     str = 'Empty String'
   print(str)
 
-butthole(string_one)
+length(string_one)
 
 
 # ````
