@@ -9,10 +9,11 @@ class Family:
 
     ethnicity = 'caucasian'
 
-    def __init__(self, last_name, state, members):
+    def __init__(self, last_name, state, members, ethnicity='caucasian'):
         self.last_name = last_name
         self.state = state
         self.members = members
+        self.ethnicity = ethnicity
     
     def __str__(self):
         return f'This class represents the entire {self.last_name} family. We all live in {self.state} and there are {self.members} of us total.'
@@ -58,7 +59,7 @@ valasquez_fam = ValasquezFamily('Valasquez', 'Texas', '3')
 
 
 
-
+print(HawkerFamily.ethnicity)
 print(str(entire_family))
 print(str(hawkers))
 print(repr(hawkers))

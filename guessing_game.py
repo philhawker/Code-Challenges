@@ -10,53 +10,33 @@
 #       print(f'no, {guess} is not the answer, please try again')
 
 
-import numpy as np
 import random
-import sys
 
-# num_list = list(range(1, 101))
 
+num = random.randint(1, 100)
+
+
+
+def guessing_game(num):
     
-
-
-
-
-
-nums = list(range(1, 101))
-
-while len(nums):
-    print(random(nums)
-
-print(nums)
-
-def guessing_game(guess):
-    random_num = (nums[:50])
-
-    print(random_num)
-
+    print(num)
+    user_guess = int(input('Guess a number between 1 and 100: '))
+    while True:
+        if user_guess > num:
+            print('Your guess is too high')
+        elif user_guess < num:
+            print('Your guess is too low')
+        else:
+            print(f'{num} is correct')
+            break
   
   
 
             
         
-    # while True:
-    #     guess = input()
-    #     if 'guess' += (num_list[0:49]):
-    #         print(f'{guess} is too HIGH! Keep guessing...')
-    #         return False
-    #         continue
-    #     elif 'guess' == str((num_list[51:100])):
-    #         print(f'{guess} is too LOW! Keep guessing...')
-    #         return False
-    #         continue
-    #     elif 'guess' == str((num_list)):
-    #         print(f'{guess} is correct!')
-    #         return True
-    #     else:
-    #         print('try again')
             
 
-guessing_game(3)
+guessing_game(num)
 
     
 
